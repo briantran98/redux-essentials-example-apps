@@ -18,7 +18,7 @@ export const EditPostForm = ({ match }) => {
     const history = useHistory()
 
     const onTitleChange = e => setTitle(e.target.value)
-    const onContentChange = e => setTitle(e.target.value)
+    const onContentChange = e => setContent(e.target.value)
 
     const onSavePostClicked = () => {
         if (title && content) {
